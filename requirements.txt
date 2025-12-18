@@ -1,0 +1,8 @@
+feedparser
+PyYAML
+openai
+gtts
+pydub
+moviepy
+Pillow
+requests

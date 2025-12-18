@@ -1,0 +1,17 @@
+# Список RSS источников (технологии/рынки, ru)
+sources:
+  - name: "RBC_Tech"
+    url: "https://rssexport.rbc.ru/rbcnews/technology/20/full.rss"
+    tags: ["tech", "business"]
+    language: "ru"
+  - name: "TAdviser"
+    url: "https://www.tadviser.ru/rss"
+    tags: ["it", "govtech"]
+    language: "ru"
+  - name: "CNews"
+    url: "https://www.cnews.ru/inc/rss/news.xml"
+    tags: ["it", "telecom"]
+    language: "ru"
+filters:
+  keywords_include: ["технолог", "рынок", "бизнес", "финтех", "инвести"]
+  keywords_exclude: ["спорт", "шоу-бизнес", "культура"]

@@ -1,0 +1,8 @@
+video_codec: "libx264"
+audio_codec: "aac"
+bitrate: "3M"
+audio_bitrate: "192k"
+resolution: [1280, 720]
+fps: 30
+container: "mp4"
+format: "16:9"

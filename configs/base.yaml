@@ -1,0 +1,24 @@
+theme: "technologies_markets"
+period_hours: 36
+video:
+  format: "16:9"
+  resolution: [1280, 720]
+  fps: 30
+  duration_seconds: 40
+llm:
+  provider: "openrouter"
+  base_url: "https://openrouter.ai/api/v1"
+  model: "xiaomi/mimo-v2-flash:free"  # adjust to your allowed OpenRouter model
+  max_tokens: 512
+  temperature: 0.3
+  seed: 42
+paths:
+  outputs_root: "outputs"
+  logs_dir: "outputs/logs"
+  scripts_dir: "outputs/scripts"
+  audio_dir: "outputs/audio"
+  video_dir: "outputs/video"
+style:
+  anchor_name: "Алексей"
+  tone: "деловой, краткий, без эмоциональных оценок"
+  bullet_count: 4

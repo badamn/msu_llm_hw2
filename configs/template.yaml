@@ -1,0 +1,29 @@
+background:
+  type: "image"
+  path: "data/backgrounds/tech_gradient.png"
+  color_fallback: "#0f172a"
+logo:
+  enabled: false
+  path: ""
+avatar:
+  provider: "heygen"               # heygen | did | static
+  avatar_id: "7fda8ef34f2b4a4c866f699710e1e4dd"
+  voice_id: "7dd8faee4b4f43dba7442074d8b0827a"
+  use_heygen_audio: true           # если true — берем звук из heygen-видео и не накладываем TTS
+  video_path: ""                   # заполняется после генерации видео
+  photo_path: "data/face.png"
+  position: [0.6, 0.15]            # relative (x, y) for top-left of avatar video
+  size: [0.35, 0.7]                # relative width, height
+captions:
+  font: "Arial"
+  font_size: 36
+  color: "#e2e8f0"
+  stroke_color: "#0f172a"
+  stroke_width: 2
+  box_color: "#0b1224"
+  box_opacity: 0.6
+  area: [0.05, 0.65, 0.55, 0.25]  # x, y, w, h (relative)
+ticker:
+  enabled: false
+  speed: 50
+  font_size: 24

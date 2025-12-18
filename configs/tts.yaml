@@ -1,0 +1,8 @@
+provider: "gtts"  # бесплатный облачный TTS (Google Translate)
+language: "ru"
+voice: "ru"
+speed: 1.0
+pitch: 0.0
+sample_rate: 22050
+chunk_by_sentence: true
+log_params: true
