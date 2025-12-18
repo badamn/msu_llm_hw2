@@ -56,9 +56,9 @@ python run_pipeline.py --date 2024-05-20 --sources configs/sources.yaml --out ou
 - Новости: JSON `[{title, body, ts, source, url}]`.
 - Сценарий: `{script_text, bullets, segments (start, end, caption)}`.
 - Аудио: WAV 22.05 kHz (по умолчанию).
-- Видео: mp4 H.264, 1280x720, 30 fps.
+- Видео: mp4 H.264, 1280x720, 25 fps.
 
 ## Примечания
-- Дообучение моделей не требуется; используем промпты.
+- Дообучение моделей не требуется; используем промпты (в модуле `script_builder_llm`).
 - Все промежуточные артефакты лежат в `outputs/`.
 - При недоступности HeyGen сработает TTS + статичное фото (если есть). Чтобы отключить TTS, оставьте `use_heygen_audio=true` и задайте `avatar.video_path` (или дайте сгенерировать автоматом).
